@@ -59,6 +59,26 @@ body {
     color: var(--link-hover-focus-text-color);
 }
 
+.page-footer {
+    background-color: #2F303A;
+}
+
+.page-footer .color-studio {
+    color: #FFFFFF;
+}
+
+.address-links .link {
+    color: rgba(255, 255, 255, 0.6);
+
+    font-style: normal;
+    font-size: 14px;
+    line-height: 1.71;
+}
+
+.link.googlmaps {
+    color: #FFFFFF;
+}
+
 .hero {
     background-color: #2F303A;
 }
@@ -129,22 +149,4 @@ body {
     font-size: 16px;
     line-height: 1.19px;
     text-align: center;
-}
-
-.page-footer {
-    background-color: #2F303A;
-}
-.page-footer .color-studio {
-    color: #FFFFFF;
-}
-.address-links .link {
-    color: rgba(255, 255, 255, 0.6);
-
-    font-style: normal;
-    font-size: 14px;
-    line-height: 1.71;
-}
-
-.link.googlmaps {
-    color: #FFFFFF;
 }
