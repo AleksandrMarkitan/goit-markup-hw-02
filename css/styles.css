@@ -21,6 +21,7 @@ body {
 
 button {
     font: inherit;
+    border: none;
     
     cursor: pointer;
 }
@@ -31,6 +32,19 @@ button {
 
 .link {
     text-decoration: none;
+}
+
+.visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    margin: -1px;
+    border: 0;
+    padding: 0;
+    white-space: nowrap;
+    clip-path: inset(100%);
+    clip: rect(0 0 0 0);
+    overflow: hidden;
 }
 
 .logo {
@@ -82,8 +96,8 @@ button {
 
     font-style: normal;
 }
-.address-links .link:hover,
-.address-links .link:focus {
+.link.contacts:hover,
+.link.contacts:focus {
     color: var(--accent-blue-color);
 }
 
@@ -172,7 +186,12 @@ button {
 .portfolio-nav:hover,
 .portfolio-nav:focus {
     background: var(--accent-blue-color);
-    color: var(--primary-bg-color)
+    color: var(--primary-bg-color);
+}
+
+.portfolio-nav.see {
+    background: var(--accent-blue-color);
+    color: var(--primary-bg-color);
 }
 
 .works .title {
